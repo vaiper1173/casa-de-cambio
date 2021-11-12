@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Casa de Cambio</title>
+
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="nav navbar-nav">
+          <li><a style="color:#ffffff" href="/">Inicio</a></li>
+          <li><a style="color:#ffffff" href="/compra">Compra</a></li>
+          <li><a style="color:#ffffff" href="/venta">Venta</a></li>
+          <li><a style="color:#ffffff" href="/reporte">Reporte</a></li>
+        </ul>
+      </nav>
+      
+    </header>
+
+    <!-- MAIN CONTENT HERE -->
+    <%- defineContent('heros') %>
+    <main>
+        <div class="container">
+                <%- body %>
+       </div>
+    </main>
+    <footer><div><h5><span style="color: #ffffff;">Hora actual en Tijuana, Baja California</span></h5><iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=small&timezone=America%2FTijuana" width="100%" height="90" frameborder="0"></iframe></div>
+        <span style="color: #ffffff;">Examen: Casa de Cambio. By: Julio Antonio López Medrano. Copyright &copy; 2020</span>
+    </footer>
+  </body>
+</html>

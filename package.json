@@ -1,0 +1,26 @@
+{
+  "name": "casacambio",
+  "version": "1.0.0",
+  "description": "examen de programacion web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "bootstrap"
+  ],
+  "author": "julio lopez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs": "^1.1.9",
+    "express-ejs-layouts": "^2.5.0",
+    "layouts": "^3.0.2",
+    "nodemon": "^2.0.6"
+  }
+}

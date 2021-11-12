@@ -1,0 +1,104 @@
+body {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: rgb(75, 75, 190);
+  background-image: url(../images/Pattern.png);
+}
+
+header {
+  background-image: url(../images/PixelArt.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top left;
+  min-height: 450px;
+  position: relative;
+}
+
+header .navbar {
+  border-radius: 10;
+  margin: 0;
+  background-image: url(../images/NavBar.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top left;
+}
+
+.hero {
+  background-image: url();
+  background-repeat: no-repeat;;
+  background-size: cover;
+  background-position: top left;
+  padding: 0px 0;
+  min-height: 0px;
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  top: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+.hero-content h2 {
+  color: #ffffff;
+  font-size: 70px;
+  /*text-shadow: -2px 2px 2px #000,
+				        2px 2px 2px #000,
+				        2px -2px 0 #000,
+				       -2px -2px 0 #000;*/
+}
+
+.hero-content p {
+  color: #FFF;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.hero-content .btn {
+  border-radius: 2px;
+  padding: 10px 20px;
+  color: rgb(48, 49, 191);
+  background-color: #ffffff;
+}  
+
+main {
+  min-height: 500px;
+  padding: 50px 0;
+}
+
+footer {
+  padding: 30px 0;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  background-image: url(../images/NavBar.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top left;
+  max-height: 500px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  border-radius: 2px;
+  padding: 10px 20px;
+  color: rgb(48, 49, 191);
+  background-color: #ffffff;
+}
+
+.jumbotron {
+  background-image: url("../images/jumbotron.png");
+}

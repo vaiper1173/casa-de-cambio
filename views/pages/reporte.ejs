@@ -1,0 +1,22 @@
+<%- contentFor('heros') %>
+<section class="hero">
+    <div class="hero-content">
+        <h2>Compra/Venta del Día</h2>
+        <a href="/" class="btn btn-lg btn-primary">Inicio</a>
+        <a href="/compra" class="btn btn-lg btn-primary">Compra</a>
+        <a href="/venta" class="btn btn-lg btn-primary">Venta</a>
+        <a href="/reporte" class="btn btn-lg btn-primary">Reporte</a>
+    </div>
+</section>
+
+<%- contentFor('body') %>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2>Total de Dólares comprados al final del Día: </h2>
+<h2>$ <%= totaldolaresC%></h2>
+<h2>Total de Dólares vendidos al final del Día: </h2>
+<h2>$ <%= totaldolaresV%></h2>
+

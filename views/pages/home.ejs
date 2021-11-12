@@ -1,0 +1,29 @@
+<%- contentFor('heros') %>
+<section class="hero">
+    <div class="hero-content">
+        <h2>Bienvenido a Divisas Galgos</h2>
+        <a href="/" class="btn btn-lg btn-primary">Inicio</a>
+        <a href="/compra" class="btn btn-lg btn-primary">Compra</a>
+        <a href="/venta" class="btn btn-lg btn-primary">Venta</a>
+        <a href="/reporte" class="btn btn-lg btn-primary">Reporte</a>
+    </div>
+</section>
+
+<%- contentFor('body') %>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+    <div class="column">
+        <div><h2>Tipo de Cambio</h2>
+        <h3>Compra: $ <%= compra%></h3>
+        <h3>Venta: $ <%= venta%></h3></div>            
+    </div>    
+    <div class="column">
+        <div><h2>En Caja</h2>
+        <h3>USD: $ <%= iniciodolar%></h3>
+        <h3>Pesos: $ <%= iniciopesos%></h3></div>            
+    </div> 
+</div>
